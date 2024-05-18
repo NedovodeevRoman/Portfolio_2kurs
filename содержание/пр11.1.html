@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практическая</title>
+    <style>
+		.d:hover{
+border: 1px;
+padding-top: 2px;
+padding-bottom: 2px;
+background-color: rgba(207, 207, 207, 0.544);
+}
+	</style>
+</head>
+<body background="1.jpg">
+<form>
+<h2 align='center'> Практическая работа "Формы. Создание интерактивных HTML - документов". </h2>
+
+<form>
+<fieldset>
+<p align='left'> <input  type='search' name='поиск ' placeholder='поиск по сайту'> <input type='button' value='искать'></p>
+
+<h2 align='center'> Пользовательская анкета</h2>
+
+<table align='center' border='0' width='90%'>
+<tr valign='middle'>
+<td align='center'><p><b>Личные данные</b></p></td>
+<td align='center'><p><b>Увлечения</b></p></td>
+</tr>
+
+<tr valign='middle'>
+<td>
+<p align='left'>Ваша фамилия: <br><input type='text' name='Фамилия' size='50' maxlength='200'><br>
+Ваше имя: <br><input type='text' name='Имя' size='50' maxlength='200'><br>
+Ваше отчество: <br><input type='text' name='Отчество' size='50' maxlength='200'><br>
+Ваш пароль: <br><input type='text' name='Пароль' size='50' maxlength='200'><br>
+Ваша фотография: <br><input type='text' name='Фотография' size='50' maxlength='200'> <input type='file' name='Обзор..'>
+</td>
+
+<td>
+<p  align='left'> <input type='checkbox' name='увлечения' value='a1'> Компьютеры и Интернет <br>
+<input type='checkbox' name='увлечения' value='a1'> Литература и искусство<br>
+<input type='checkbox' name='увлечения' value='a1'>Музыка и танцы <br>
+<input type='checkbox' name='увлечения' value='a1'>Автомобили <br>
+<input type='checkbox' name='увлечения' value='a1'>Спорт и активный отдых <br>
+<input type='checkbox' name='увлечения' value='a1'> Вязание/плетение<br>
+<input type='checkbox' name='увлечения' value='a1'> Мультимедийные технологии<br>
+<input type='checkbox' name='увлечения' value='a1'> Кино и телевидение<br> </p>
+</td>
+</tr>
+
+
+<tr valign='middle'>
+<td><p align='left'>На каком  курсе Вы учитесь:<input type='radio'name='курс' value='a1'> 1 курс <input type='radio'name='курс' value='a2'> 2 курс <input type='radio'name='курс' value='a1'> 3 курс <input type='radio'name='курс' value='a1'> 4 курс <input type='radio'name='курс' value='a1'> 5 курс</p> <br> 
+ <select> <option> Название отделения:</option>  <option>Начальные классы </option>  <option>Коррекционное обучение </option> <option>Дошкольное обучение</option> <option>Специальность по отраслям</option> <option>Физкультурное обучение </option> <option>Юрист </option> </select> </td>
+
+
+<td><p align='left'> Ваш возраст:<input type='radio'name='возраст' value='a1'> 14-16 <input type='radio'name='возраст' value='a2'> 17-19 <input type='radio'name='возраст' value='a1'> 20-22 <input type='radio'name='возраст' value='a1'> 23-25 <input type='radio'name='возраст' value='a1'> <25</p>  </td>
+</tr>
+
+<tr  valign='middle'>
+<td align='center'><p><b>Место жительства и номер телефона</b></p></td>
+<td align='center'><p><b>Комментарии</b></p></td>
+</tr>
+
+
+<tr  valign='middle'>
+<td> <select> <option> Выберите страну:</option>  <option>Россия </option>  <option>Казахстан </option> <option>Украина</option> <option>Беларусь</option>   </select>  <select> <option> Выберите город:</option>  <option>Болхов </option>  <option>Орёл </option> <option>Белёв</option> <option>Ливны</option> <option>Минск</option> <option>Астана</option>      </select> <br> 
+<p align='left'>Введите название улицы и номер дома <input type='text' name='название' size='25' maxlength='200'> <br>  Номер телефона <input type='text' name='телефон' size='1' maxlength='10'> - <input type='text' name='телефон' size='1' maxlength='10'> - <input type='text' name='телефон' size='1' maxlength='10'></p></td>
+
+<td><p><textarea placeholder='Оставьте комментарий..' maxlength='200'></textarea> <br> <input type='radio'name='п' value='a1'> Я впервые на этом сайте <br><input type='radio'name='п' value='a2'> Я тут не в первый раз </p></td>
+</tr>
+
+<th  valign='middle' colspan="2">
+ <p align='center'><input type='submit' value='Отправить'><input type='reset' value='Очистить'></p>
+</th>
+
+</table>
+</fieldset>
+</form>
+<br>
+<div class='d'><a href='портфолио.html'><b>К списку работ</b></a> </div> 
+</body>
+</html>
